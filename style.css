@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+body{
+    
+    background:url(images/background.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: fixed;
+    background-size: cover;
+    height: 80vh;    
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid #E6B9DE;
+    backdrop-filter: blur(35px)    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input::placeholder{
+    letter-spacing: 1.5px;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #000000;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 1em;
+    width: 50%;
+    letter-spacing: 2px;
+    width: 800;
+   
+}
+.card button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;    
+}
+.search button img{
+    width: 1.5em;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather  h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 60px;
+    margin-right: 10px;
+}
+.humidiyt {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.wind {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: none;
+}
+
+    @media (max-width: 490px){
+        .details{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        #section_firs{
+            /* padding: 0; */
+            margin-right: 40px;
+        }
+
+        #section_second{
+            margin-top: 20px;
+        }
+    }
