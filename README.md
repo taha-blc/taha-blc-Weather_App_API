@@ -1,2 +1,1 @@
-[proje link](https://taha-blc.github.io/hangman_game/)
-[Açılacak Bağlantı Metni](https://taha-blc.github.io/hangman_game/)(:target="_blank")
+you can acces to project from this link:https://taha-blc.github.io/taha-blc-Weather_App_API/
