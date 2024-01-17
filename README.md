@@ -1,2 +1,1 @@
-
-[Proje Adı](https://taha-blc.github.io/taha-blc-Weather_App_API/){:target="_blank"}
+<a href="https://taha-blc.github.io/hangman_game/" target="_blank">Bağlantı Metni</a>
